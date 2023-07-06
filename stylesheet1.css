@@ -1,11 +1,12 @@
 body {
   background: linear-gradient(to bottom, #ff0000, #00ff00);
   background-image: url(somu.png);
-  background-size: 360px;
+  background-size: auto 100vh;
+  background-position: right;
   background-repeat: no-repeat;
   background-position: right top;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 .profile {
@@ -23,6 +24,17 @@ h2 {
   color: rgb(7, 112, 231);
   font-family: cursive;
   font-size: xx-large;
+}
+.sub-heading {
+  /* display: inline-block;
+  background-color: #85ff85; */
+  color: rgb(236, 233, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.sub-heading h3 {
+  display: inline-block;
+  background-color: #006300;
 }
 
 footer {
