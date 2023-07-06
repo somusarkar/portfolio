@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(to bottom, #ff0000, #00ff00);
+  background-image: url(somu.png);
+  background-size: 360px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  font-weight: bold;
+  color: rgb(248, 100, 55);
+  font-size: 20px;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: rgb(121, 0, 24);
+}
+
+.firstheading {
+  color: rgb(7, 112, 231);
+  font-family: cursive;
+  font-size: xx-large;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(142, 251, 251);
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 1px;
+}
+
+.education,
+.photography,
+.art {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.education a,
+.photography a,
+.art a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: darkslateblue;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.education a:hover,
+.photography a:hover,
+.art a:hover {
+  background-color: mediumspringgreen;
+  color: midnightblue;
+}
+
+header {
+  color: #ec0a74;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px;
+  margin: 0;
+}
