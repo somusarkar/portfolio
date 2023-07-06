@@ -75,6 +75,7 @@ footer {
 }
 
 header {
+  background-color: rgba(127, 255, 212, 0.419);
   color: #ec0a74;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
