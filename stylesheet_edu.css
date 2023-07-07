@@ -43,6 +43,9 @@ body {
   section ul li {
     color: aqua;
   }
+.blog ul li {
+    color: aqua;
+  }
 
   projects ul li {
     color: aqua;
