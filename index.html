@@ -2,50 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somu Sarkar</title>
-    <link rel="stylesheet" href="stylesheet1.css">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
-    
 <body>
-    <header>
-        <h1>MY PROFILE</h1>
-    </header>
-    
-    <div class="heading">
-        <H2>HI! I'M </H2>
-        <h3><span class="firstheading"><big>SOMU SARKAR</big></span></h3>
-    </div>
+    <div class="video-container">
+        <video autoplay loop muted>
+          <source src="bg.mp4" type="video/mp4">
+          <!-- Add additional source elements for different video formats if needed -->
+        </video>
 
-    <div class="sub-heading">
-        <span class="sub">
-            <h3>Web-developer</h3>
-            <h3>Photographer</h3>
-            <h3>Physiologist</h3>
-            <h3>Artist</h3>
-        </span>
-        <!-- <span class="profile" style="text-shadow: 1px 1px; text-decoration: underline;">
-            <h3>A <em>Physiologist</em>, <em>Photographer</em><em>Artist.</em></h3> &  <h3>A <em>Web-developer</em>
-        </span>  -->
-    </div>
-    <br>
+        <div class="content">
+            <header>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#HOME">HOME</a></li>
+                        <li><a href="#ABOUT">ABOUT</a></li>
+                        <li><a href="#CONTACT">CONTACT</a></li>
+                    </ul>
+                </div>
+            </header>
 
-    <div class="education">
-        <a href="education.html">EDUCATION</a>
-    </div>
+            <div class="image-box">
+                <img src="somu.png" alt="Image description">
+                <div class="textbox">
+                    <h2 style="color: rgb(255, 216, 229);
+                    text-align: center;">Hey!</h2>
+                    <h3 style="color: rgb(255, 251, 133);
+                    text-align: center;">This is</h3><h1 style="color: rgb(234, 255, 2);
+                    text-align: center;">SOMU SARKAR</h1>
+                </div>
+            </div>
 
-    <div class="photography">
-        <a href="photography.html">PHOTOGRAPHY</a>
-    </div>
+            <div class="parent">
+                <div class="flexcontainer">
+                    <div class="box1">
+                        <h3 style="color: rgb(255, 255, 255);">Education</h3>
+                        <p style="color: rgb(244, 244, 0); font-family: cursive; text-align: justify;">Graduated with hons from Krishnagar Govt. College, equipped with indept knowledge of human body system and their function</p>
+                        <a href="Resume.pdf" download="">
+                            <button class="download-button">Download Resume</button>
+                        </a>
+                    </div>
 
-    <div class="art">
-        <a href="art.html">ART</a>
-    </div>
+                    <div class="box2">
+                        <h3 style="color: aliceblue;">Photography</h3>
+                        <p style="color: coral; font-family: cursive; text-align: justify;">A passionate photographer with a focus on micro and nature photography, combining artistic vision with technical skill to capture captivating and intricate details of the natural world.</p>
+                        <a href="photography.html">
+                            <button class="link-button">See More</button>
+                        </a>
+                    </div>
 
-<footer>
-    <p>&copy; 2023 Personal Website. All rights reserved.</p>
-</footer>
+                    <div class="box3">
+                        <h3 style="color: aliceblue;">Drawing</h3>
+                        <p style="color: springgreen; font-family: cursive; text-align: justify;">As a Portrait Artist, I being individuals to life on canvas, capturing their unique essence through careful observation and skillful brushstrokes, creating timeless and evocative piece of art.</p>
+                        <a href="art.html">
+                            <button class="link-button">See More</button>
+                        </a>
+                    </div>
 
+                    <div class="box4">
+                        <h3 style="color: aliceblue;">Blogs</h3>
+                        <p style="color: turquoise;
+                        font-family: cursive; text-align: justify;">I write insightful blogs exploring the fascinating interplay between Physiology and Python programming, uncovering the connections between the human body and the world of coding, offering unique perspectives at their intersection.</p>
+                        <div class="blog">
+                            <ul>
+                              <li><a href=https://physiologyintregatedwithcode.blogspot.com/2023/06/title-integrating-python-in-field-of.html>How Python can be integrated with Physiology</a></li>
+                            
+                              <li><a href=https://physiologyintregatedwithcode.blogspot.com/2023/07/the-future-of-coding-in-physiology.html>Future of Coding in Physiology</a></li>
+                              
+                              <li><a href=https://physiologyintregatedwithcode.blogspot.com/2023/07/using-python-to-analyze-ecg-readings.html>How python can help to analyse ECG reading.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="box5">
+                        <h3 style="color: white;">Projects</h3>
+                        <p style="color: yellow; font-family: cursive; text-align: justify;">Crafted personal, restaurnat and travel websites, blending creativity and functionality for immersive digital experience.</p>
+                        <div class="projects">
+                            <ul>
+                              <li><a href="https://somusarkar.github.io/portfolio/">This Web-page</a></li>
+                              <li><a href="https://somusarkar.github.io/sero-s_kitchen/">Restrurent Website</a></li>
+                              <li><a href="https://somusarkar.github.io/travel_agency/">Travel Agency Website</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="qualification">
+                <h2>Physiologist</h2>
+                <h2>Photographer</h2>
+                <h2>Artist</h2>
+                <h2>Web-Developer</h2>
+            </div> -->
+
+            <!-- <div class="links">
+                <ul>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Drawings</a></li>
+                    <li><a href="">Photography</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">Projects</a></li>
+                </ul>   
+            </div> -->
+            
+            <!-- <div class="advertisement">
+                <iframe src="" frameborder="0">ADVERTISEMENT</iframe>
+            </div> -->    
+        </div>
+        
+      </div>    
 </body>
 </html>
