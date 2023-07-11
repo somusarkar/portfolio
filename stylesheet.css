@@ -70,13 +70,14 @@
   
   .image-box img {
     max-width: 100%;
-    max-height: 80%;
+    max-height: 87%;
     position: fixed;
   }
   @media screen and (max-width:568px) {
     .image-box {
-        width: 50%; 
+        width: 50%;
         top: 0;
+        background-color: #33333300; 
     }
   }
   
@@ -87,7 +88,6 @@
     background-color: rgba(84, 84, 84, 0);
     position: absolute;
     top: 38px;
-    left: 40%;
     padding-left: 10px;
     margin-left: 10px;
     border-radius: 10px;
@@ -96,8 +96,7 @@
     .textbox {
         width: 100%;
         height: auto;
-        left: 0px;
-        top: 60px;
+        left: -40px;
     }
   }
 
@@ -218,6 +217,7 @@
   .download-button {
     background-color: #333;
     border: none !important;
+    border-radius: 10px;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -280,4 +280,57 @@
     color: black;
     text-decoration: none;
   }
+
+  .qualification {
+    position: fixed;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0);
+    top: 390px;
+    right: 70px;
+    align-content: center;
+  } 
+  .qualification ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.qualification li {
+  display: block;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.qualification li a {
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #232323;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.qualification li a:hover {
+  background-color: #b8b8b8;
+  color: rgb(0, 0, 0);
+}
+.qualification {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@media (max-width: 570px) {
+  .qualification {
+    justify-content: flex-start;
+    align-items: flex-start;
+    right: -5px;
+    top: 350px;
+  }
+}
+
+
   
